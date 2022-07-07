@@ -23,3 +23,14 @@ img {
     flex-direction: column;
 }
 
+.sign-up-form{
+    display: flex;
+}
+
+.form-column{
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+}
