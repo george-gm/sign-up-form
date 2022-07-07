@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    
+}
+
+.page-container{
+    display: flex;
+}
+
+.image-container{
+
+    flex-shrink: 2;
+}
+
+img {
+    max-height: 100vh;
+    width: auto;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
