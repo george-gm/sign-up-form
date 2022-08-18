@@ -7,6 +7,8 @@ const phoneNumber = document.getElementById("phone-number");
 const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirm-password");
 
+email.autofocus = false;
+
 form.addEventListener('submit', function (event) {
 
     if( !firstName.validity.valid ){
